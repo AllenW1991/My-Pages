@@ -1,0 +1,363 @@
+body {
+  font-family: Arial,Helvetica,sans-serif;
+  width: 100%;
+  height: auto;
+}
+
+i {
+  font-size: 32px;
+  margin-right: 8px;
+  color: black;
+}
+
+h3 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 88px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: lighter;
+  margin-top: 48px;
+}
+
+button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.nav_bar {
+  width: 100%;
+  height: 680px;
+  background: url(../imgs/me.png) no-repeat;
+  background-size: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main_text {
+  width: 100%;
+  height: 680px;
+  position: absolute;
+  line-height: 50px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.main_text a {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+}
+
+.main_text a:hover {
+  color: #be0e0e;
+}
+
+.main_text img {
+  position: relative;
+  margin-top: 32px;
+  width: 120px;
+  height: 120px;
+}
+
+.main_text ul {
+  position: relative;
+  margin-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.about {
+  margin: 0 auto;
+  width: 1200px;
+  position: relative;
+}
+
+.about .about_black {
+  padding-top: 80px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  height: 600px;
+}
+
+.about .about_black h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.about .about_black img {
+  width: 400px;
+  margin-right: 144px;
+}
+
+.about .about_black .about_black_text {
+  margin-left: 120px;
+  margin-top: 64px;
+}
+
+.about .about_black .about_black_text p {
+  width: 300px;
+  margin-top: 48px;
+}
+
+.about .about_black button {
+  margin-top: 48px;
+}
+
+.about .about_white {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 144px;
+  color: black;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: white;
+  width: 1000px;
+  margin-left: 120px;
+}
+
+.about .skill {
+  width: 1000px;
+  margin-left: 120px;
+  margin-top: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 500px;
+}
+
+.about .skill button {
+  margin-top: 48px;
+}
+
+.about .skill .skill_1 {
+  padding-right: 24px;
+}
+
+.project_container {
+  position: relative;
+  text-align: center;
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 5%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project_container h2 {
+  width: 100%;
+  height: 16px;
+}
+
+.project_container ul {
+  margin-top: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.project_container ul li img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 400px;
+  height: 200px;
+}
+
+.project_container .web_img .middle {
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  opacity: 0;
+  left: 30%;
+  bottom: 35%;
+  position: relative;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+}
+
+.project_container .web_img li:hover img {
+  opacity: 0.15;
+}
+
+.project_container .web_img li:hover .middle {
+  opacity: 1;
+}
+
+.project_container .web_img .text {
+  color: #252525;
+  font-size: 32px;
+  width: 240px;
+  height: 48px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+.contact_container {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 600px;
+  height: 600px;
+  padding-top: 5%;
+  margin-bottom: 200px;
+}
+
+.contact_container button {
+  width: 160px;
+  height: 40px;
+  border: 0 solid;
+  color: #fff;
+  background-color: #202020;
+}
+
+.contact_container form {
+  text-align-last: left;
+  margin-top: 5%;
+}
+
+.contact_container form p span {
+  color: red;
+}
+
+.contact_container input {
+  display: block;
+  width: 600px;
+  height: 24px;
+  margin-bottom: 8px;
+}
+
+.contact_container .send_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer {
+  margin-top: 0px;
+  font-size: 6px;
+  color: #c9c9c9;
+  width: 100%;
+  height: 24px;
+  background-color: #2b2b2b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  width: 360px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 24px;
+}
+
+footer ul i {
+  color: #c9c9c9;
+}
+
+.parallax_1 {
+  /* The image used */
+  background-image: url("../imgs/04.jpg");
+  opacity: 0.5;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax_2 {
+  /* The image used */
+  background-image: url("../imgs/03.jpg");
+  opacity: 0.5;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
