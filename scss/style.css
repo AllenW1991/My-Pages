@@ -1,5 +1,5 @@
 body {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   width: 100%;
   height: auto;
 }
@@ -157,7 +157,7 @@ button:hover {
 .about .skill {
   width: 1000px;
   margin-left: 120px;
-  margin-top: 240px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -165,6 +165,10 @@ button:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 500px;
+}
+
+.about .skill h4 {
+  font-size: 56px;
 }
 
 .about .skill button {
@@ -177,10 +181,18 @@ button:hover {
   text-align-last: left;
 }
 
+.about .skill .skill_1 p {
+  height: 160px;
+}
+
 .about .skill .skill_2 {
   padding-right: 24px;
   width: 400px;
   text-align-last: left;
+}
+
+.about .skill .skill_2 p {
+  height: 160px;
 }
 
 .project_container {
