@@ -173,6 +173,14 @@ button:hover {
 
 .about .skill .skill_1 {
   padding-right: 24px;
+  width: 400px;
+  text-align-last: left;
+}
+
+.about .skill .skill_2 {
+  padding-right: 24px;
+  width: 400px;
+  text-align-last: left;
 }
 
 .project_container {
