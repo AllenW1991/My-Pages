@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="icon" href="./imgs/favicon/android-chrome-512x512.png">
-
+  <script src="./my_page.js"></script>
 </head>
 
 <body>
@@ -63,23 +63,26 @@
       <div class="skill">
         <div class="skill_1">
           <h4>Front-End</h4>
-          <p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;除了在資策會培訓中所學的基本html、css、javascript、jQuery，訓練期間也自主學習scss預處理及flexbox容器概念，實際撰寫於網頁作品。</p>
-          <button>LEARN MORE</button>
+          <p>&nbsp; &nbsp;&nbsp;
+            &nbsp;&nbsp;除了在資策會培訓中所學的基本html、css、javascript、jQuery，訓練期間也自主學習scss預處理及flexbox容器概念，實際撰寫於網頁作品。</p>
+          <button onclick="javascript:onTopClick();">LEARN MORE</button>
         </div>
         <div class="skill_2">
           <h4>ML</h4>
-          <p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;對於機器學習/深度學習模型有一定認知，擁有LineBot及FB chatBot API串接，及Azure AI相關資源服務使用經驗。曾參與openCV影像處理結合mediapipe製作肢體辨識專案製作。</p>
-          <button>LEARN MORE</button>
+          <p>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;對於機器學習/深度學習模型有一定認知，擁有LineBot及FB chatBot API串接，及Azure
+            AI相關資源服務使用經驗。曾參與openCV影像處理結合mediapipe製作肢體辨識專案製作。</p>
+          <button onclick="javascript:onTopClick();">LEARN MORE</button>
         </div>
       </div>
     </div>
-    <div class="project">
+    <div class=" project">
       <!-- <img src="./imgs/01.jpg" alt="" style="width: 100%; opacity: 60%;"> -->
       <div class="parallax_2"></div>
-      <div class="project_container">
+      <div class="project_container" id="project_list">
         <h2>projects.</h2>
         <ul class="web_img">
-          <li><a href="https://allenw1991.github.io/project.1_questionnaire/Questionnaire"><img src="./imgs/web_photo/01.png" alt="">
+          <li><a href="https://allenw1991.github.io/project.1_questionnaire/Questionnaire"><img
+                src="./imgs/web_photo/01.png" alt="">
               <div class="middle">
                 <div class="text">Questionnaire</div>
               </div>
@@ -89,7 +92,8 @@
                 <div class="text">Music Player</div>
               </div>
             </a></li>
-          <li><a href="https://allenw1991.github.io/project.2/kirai/timeline.html"><img src="./imgs/web_photo/03.png" alt="">
+          <li><a href="https://allenw1991.github.io/project.2/kirai/timeline.html"><img src="./imgs/web_photo/03.png"
+                alt="">
               <div class="middle">
                 <div class="text">Timeline</div>
               </div>
